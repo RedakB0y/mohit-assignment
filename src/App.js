@@ -1,7 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-// import CatData from './CatData';
-// import Header from './Header';
-// import "./App.css";
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const Header = lazy(() => import('./Header'));
